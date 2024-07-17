@@ -30,11 +30,11 @@ void gpu(Framebuffer* framebuuffer) {
 }
 
 void render_frame() {
-  /* Draw a rectangle */
-  draw_rectangle(10, 10, 50, 80, 0xFF0000); /* Red */
+    /* Draw a rectangle */
+    draw_rectangle(10, 10, 50, 80, 0xFF0000); /* Red */
   
-  /* Draw a line */
-  draw_line(20, 50, 80, 20, 0x00FF00);  /* Green */
+    /* Draw a line */
+    draw_line(20, 50, 80, 20, 0x00FF00);  /* Green */
 }
 
 #endif
