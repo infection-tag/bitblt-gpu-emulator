@@ -8,11 +8,13 @@ This GPU is based on a simple BitBlt emulator.
 gpu_emulator
 ├── include
 │   ├── gpu.h
+|   ├── framebuffer.h
+|   ├── memory.h
 │   └── types.h
 ├── src
 │   ├── main.c
 │   ├── framebuffer.c
-│   ├── graphics.c
+│   ├── gpu.c
 │   └── memory.c
 └── Makefile
 ```
@@ -23,7 +25,7 @@ gpu_emulator
 * types.h: Defines custom data types used throughout the project 
 * main.c: Entry point of the program, handles initialization, rendering loop, and input/output.
 * framebuffer.c: Manages the framebuffer, including creation, clearing, and pixel writes.
-* graphics.c: Implements core graphics functions like rasterization, shading, and transformations.
+* gpu.c: Implements core graphics functions like rasterization, shading, and transformations.
 * memory.c: Handles memory allocation and management for the emulator.
 
 ## Run
