@@ -1,3 +1,7 @@
 #include "include/gpu.h"
-#include "include/types.h"
 
+int main() {
+    initialize_gpu();
+    render_frame();
+    return 0;
+}
